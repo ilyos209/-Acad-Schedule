@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modal.css">
+    <link rel="stylesheet" href="style/teacher-modal.css">
+    <link rel="stylesheet" href="style/room-modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <ul class="header__list">
+                    <li class="header__item"><div class="header__title-box"><h1 class="header__title">Yanvar</h1></div></li>
+                    <li class="header__item1">
+                        <div class="header__box1"><input class="search__input" type="text" placeholder="search"><img src="image/search.png" alt="" class="search__img"></div>
+                        <div class="header__box"><input type="date" id="start" class="date__input" value="2024-02-01" min="2024-02-01" max="2024-02-11"/></div>
+                        <div class="header__box">
+                            <div class="dropdown">
+                                <span><p class="header__text">1 xafta</p></span>
+                                <div class="dropdown-content">
+                                    <button class="header__text">2-xafta</button>
+                                    <button class="header__text">3-xafta</button>
+                                    <button class="header__text">4-xafta</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__box"><p class="header__text">201-23 guruh</p></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="week__days">
+        <div class="container">
+            <div class="days__wrapper">
+                <ul class="days__list">
+
+
+
+                    <div class="days__box1">
+                        <div class="box">
+                            <div class="box__text"><p class="days__text">1</p></div>
+                            <div class="box__text"><p class="days__text">xafta</p></div>
+                        </div>
+
+                    </div>
+
+
+                    
+                    <div class="days__box">
+                        <li class="days__item">
+                            <p class="days__text">Dushanba (01.01.2024)</p>
+                        </li>
+                    </div>
+                    <div class="days__box">
+                        <li class="days__item">
+                            <p class="days__text">Seshanba (02.01.2024)</p>
+                        </li>
+                    </div>
+                    <div class="days__box">
+                        <li class="days__item">
+                            <p class="days__text"> Chorshanba (03.01.2024)</p>
+                        </li>
+                    </div>
+                    <div class="days__box">
+                        <li class="days__item">
+                            <p class="days__text">Payshanba (04.01.2024)</p>
+                        </li>
+                    </div>
+                    <div class="days__box">
+                        <li class="days__item">
+                            <p class="days__text">Juma (05.01.2024)</p>
+                        </li>
+                    </div>
+                    <div class="days__box">
+                        <li class="days__item">
+                            <p class="days__text">Shanba (06.01.2024)</p>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="lessons1">
+        <div class="container">
+            <div class="lessons__wrapper">
+                <div class="lessons__box1">
+                    <ul class="lessons__list1">
+                        <li class="lessons__item1">
+                            <p class="lesson__text1">1 - juftlik</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">09:00 - 10:20</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya" id="open-kri-btn">Kriminologiya</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Kriminologiya asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1" id="open-teach-btn">Rashidov Sh.R.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1" id="open-room-btn">A korpus, 217-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">09:00 - 10:20</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya" id="open-kri-btn1">Kriminologiya</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Kriminologiya asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1" id="open-teach-btn1">Rashidov Sh.R.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1" id="open-room-btn2">A korpus, 217-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">09:00 - 10:20</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya" id="open-kri-btn2">Kriminologiya</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Kriminologiya asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1" id="open-teach-btn2">Rashidov Sh.R.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1" id="open-room-btn3">A korpus, 217-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">09:00 - 10:20</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya" id="open-kri-btn3">Kriminologiya</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Kriminologiya asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1" id="open-teach-btn3">Rashidov Sh.R.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1" id="open-room-btn4">A korpus, 217-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">09:00 - 10:20</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya" id="open-kri-btn4">Kriminologiya</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Kriminologiya asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1" id="open-teach-btn4">Rashidov Sh.R.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1" id="open-room-btn5">A korpus, 217-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">09:00 - 10:20</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya" id="open-kri-btn5">Kriminologiya</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Kriminologiya asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1" id="open-teach-btn5">Rashidov Sh.R.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1" id="open-room-btn6">A korpus, 217-xona</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="kri__modal" id="my-modal">
+        <div class="container1">
+            <div class="kri__modal-wrapper">
+                <div class="kri__box"><p class="kri__text">Kriminologiya jinoyatchilikni kishilarning jinoyatta oid qonun talablariga zid bo'lgan
+                     ijtimoiy xavfli qilmishlaridan iborat ijtimoiy hodisa sifatida tadqiqqiladi. Shuningdek, Kriminologiya jinoyatchilikka oid
+                      ma'lumotlarni umumiy tarzda, shu bilan birga jinoyatlarning ayrim turlari va guruhlari bo'yicha hamda Kriminologiyaga oid ayrim
+                       muammolar (mas, voyaga yetmaganlar jinoyatchiligi, retsidiv jinoyatchilik, guruh jinoyatchiligi) bo'yicha tekshiradi. Jinoyatchilik
+                       sabablari, ya'ni umuman jinoyatchilikka va muayyan jinoyatlarni sodir qilishga ta'sir etadigan ijtimoiy omillar, hodisalar, jarayonlar
+                        ham Kriminologiya predmeti hisoblanadi. Kriminologiya jinoyatchi, ya'ni turli jinoyatlarni sodir etgan shaxslarning fe'latvoriga 
+                        biron-bir darajada ta'sir etuvchi ijtimoiy xususiyatlar hamda ijtimoiy ahamiyatga molik xususiyatlar, belgilar, sifatlar, aloqalar hamda
+                         munosabatlarni har tomonlama organadi.</p></div>
+                <div class="kri__box"><button class="save__btn">Yuklab olish</button></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="teach__modal" id="teach-modal">
+        <div class="container3">
+            <div class="teach__modal-wrapper">
+                <div class="teach__header">
+                    <div class="teach__header-box">
+                        <p class="teach__header-text">professor/o'qituvchi haqida ma'lumot</p>
+                        <button class="teach__modal-close"><img src="image/close.png" alt="" class="close__img" id="close-teach-modal"></button>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="header__bottom">
+                    <div class="bottom__box">
+
+
+                        
+                        <div class="box__left">
+
+                         <div class="title__wrapper">
+                            <ul class="title__list">
+                                <li class="title__item"><h2 class="bottom__title">rashidov shavkatbek</h2></li>
+                                <li class="title__item"><h2 class="bottom__title">ravshanbek og'li</h2></li>
+                            </ul>
+                            <div class="stajer"><p class="stejer__text">Stajer-o'qituvchi</p></div>
+                          </div>
+
+
+                          <div class="line__wrapper">
+                          <div class="data__box1">
+                            <div class="text__box"><p class="data__text">Ilmiya daraja</p></div>
+                            <div class="line__box">
+                                <ul class="line__list">
+                                    <li class="line__item"><img src="image/student.png" alt="" class="line__img1"></li>
+                                    <li class="line__item"><p class="line__text">Darajasiz</p></li>
+                                </ul>
+                            </div>
+                          </div>
+
+                          <div class="data__box2">
+                            <div class="text__box"><p class="data__text">Ilmiy unvon</p></div>
+                            <div class="line__box">
+                                <ul class="line__list">
+                                    <li class="line__item"><img src="image/medal.png" alt="" class="line__img"></li>
+                                    <li class="line__item"><p class="line__text">Unvonsiz</p></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+
+                        </div>
+
+
+
+                        <div class="box__right">
+                            <img src="image/photo1.jpg" alt="" class="ava__img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lines">
+                    <div class="header__bottom">
+                        <div class="bottom__box">
+    
+    
+                            
+                            <div class="box__left1">
+    
+    
+                              <div class="line__wrapper1">
+                              <div class="data__box3">
+                                <div class="text__box"><p class="data__text">Reytingi</p></div>
+                                <div class="line__box">
+                                    <ul class="line__list">
+                                        <li class="line__item"><img src="image/handshake.png" alt="" class="line__img2"></li>
+                                        <li class="line__item"><p class="line__text1">1</p></li>
+                                    </ul>
+                                </div>
+                              </div>
+    
+                              <div class="data__box4">
+                                <div class="text__box"><p class="data__text">Yutuqlari</p></div>
+                                <div class="line__box">
+                                    <ul class="line__list">
+                                        <li class="line__item"><img src="image/cup.png" alt="" class="line__img3"></li>
+                                        <li class="line__item"><p class="line__text1">0</p></li>
+                                    </ul>
+                                </div>
+                              </div>
+
+                              <div class="data__box5">
+                                <div class="text__box"><p class="data__text">Ilmiy ish</p></div>
+                                <div class="line__box">
+                                    <ul class="line__list">
+                                        <li class="line__item"><img src="image/hammer.png" alt="" class="line__img4"></li>
+                                        <li class="line__item"><p class="line__text1">3</p></li>
+                                    </ul>
+                                </div>
+                              </div>
+
+
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rate">
+                    <div class="rate__wrapper">
+                        <ul class="rate__list">
+                            <li class="rate__item"><img src="image/star_color.png" alt="" class="rate__img"></li>
+                            <li class="rate__item"><img src="image/star_color.png" alt="" class="rate__img"></li>
+                            <li class="rate__item"><img src="image/star_color.png" alt="" class="rate__img"></li>
+                            <li class="rate__item"><img src="image/star_color.png" alt="" class="rate__img"></li>
+                            <li class="rate__item"><img src="image/star.png" alt="" class="rate__img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="room__modal" id="room-modal">
+        <div class="container4">
+            <div class="room__modal-wrapper">
+                <p class="room__text">217-xona</p>
+                <button class="room__modal-close"><img src="image/close.png" alt="" class="close__img" id="close-room-modal"></button>
+                <img src="image/davomat.png" alt="" class="cadets__img">
+                <ul class="room__list">
+                    <room__item><img src="image/cadets.png" alt="" class="room__img"></room__item>
+                    <room__item><img src="image/list.png" alt="" class="room__img"></room__item>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="lessons2">
+        <div class="container">
+            <div class="lessons__wrapper">
+                <div class="lessons__box3">
+                    <ul class="lessons__list1">
+                        <li class="lessons__item1">
+                            <p class="lesson__text1">2 - juftlik</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">10:35 - 11:55</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Ma'ruza</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Fuqarolik huquqi</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Oila kodeksi asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Mamatov Sh.A.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 201-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">10:35 - 11:55</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Ma'ruza</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Fuqarolik huquqi</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Oila kodeksi asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Mamatov Sh.A.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 201-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">10:35 - 11:55</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Ma'ruza</p>
+                        </li>
+                        <li class="lessons__item">
+                             <button class="kriminoligiya">Fuqarolik huquqi</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Oila kodeksi asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Mamatov Sh.A.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 201-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">10:35 - 11:55</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Ma'ruza</p>
+                        </li>
+                        <li class="lessons__item">
+                             <button class="kriminoligiya">Fuqarolik huquqi</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Oila kodeksi asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Mamatov Sh.A.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 201-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">10:35 - 11:55</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Ma'ruza</p>
+                        </li>
+                        <li class="lessons__item">
+                             <button class="kriminoligiya">Fuqarolik huquqi</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Oila kodeksi asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Mamatov Sh.A.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 201-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">10:35 - 11:55</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Ma'ruza</p>
+                        </li>
+                        <li class="lessons__item">
+                             <button class="kriminoligiya">Fuqarolik huquqi</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Oila kodeksi asoslari</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Mamatov Sh.A.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 201-xona</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="lessons3">
+        <div class="container">
+            <div class="lessons__wrapper">
+                <div class="lessons__box1">
+                    <ul class="lessons__list1">
+                        <li class="lessons__item1">
+                            <p class="lesson__text1">3 - juftlik</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">12:10 - 13:30</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Tergov faoliyati</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Dastlabki tergov</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Boymatov M.J.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 302-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">12:10 - 13:30</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                           <button class="kriminoligiya">Tergov faoliyati</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Dastlabki tergov</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Boymatov M.J.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 302-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">12:10 - 13:30</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                           <button class="kriminoligiya">Tergov faoliyati</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Dastlabki tergov</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Boymatov M.J.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 302-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">12:10 - 13:30</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                           <button class="kriminoligiya">Tergov faoliyati</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Dastlabki tergov</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Boymatov M.J.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 302-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">12:10 - 13:30</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                          <button class="kriminoligiya">Tergov faoliyati</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Dastlabki tergov</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Boymatov M.J.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 302-xona</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">12:10 - 13:30</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Seminar</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Tergov faoliyati</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Dastlabki tergov</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Boymatov M.J.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="room1">A korpus, 302-xona</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lessons4">
+        <div class="container">
+            <div class="lessons__wrapper">
+                <div class="lessons__box3">
+                    <ul class="lessons__list1">
+                        <li class="lessons__item1">
+                            <p class="lesson__text1">4 - juftlik</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">14:30 - 15:50</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Amaliy</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Jangovar jismoniy</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Qo'l jangi</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Do'stmurodov U.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Sport zal</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">14:30 - 15:50</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Amaliy</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Jangovar jismoniy</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Qo'l jangi</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Do'stmurodov U.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Sport zal</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">14:30 - 15:50</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Amaliy</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Jangovar jismoniy</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Qo'l jangi</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Do'stmurodov U.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Sport zal</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">14:30 - 15:50</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Amaliy</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Jangovar jismoniy</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Qo'l jangi</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Do'stmurodov U.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Sport zal</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">14:30 - 15:50</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Amaliy</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Jangovar jismoniy</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Qo'l jangi</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Do'stmurodov U.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Sport zal</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lessons__box2">
+                    <ul class="lessons__list">
+                        <li class="lessons__item">
+                            <p class="lesson__text">14:30 - 15:50</p>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Amaliy</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya">Jangovar jismoniy</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Qo'l jangi</p>
+                        </li>
+                        <li class="lessons__item">
+                            <button class="kriminoligiya1">Do'stmurodov U.</button>
+                        </li>
+                        <li class="lessons__item">
+                            <p class="lesson__text">Sport zal</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+</body>
+<script src="js/script.js"></script>
+</html>

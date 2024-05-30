@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__item1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.header__item {
+    margin: 0 auto;
+}
+
+.header__box {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__text {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: aquamarine;
+    font-weight: 400;
+    font-family: "Inter";
+    width: 120px;
+}
+
+.header__box1 {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title-box {
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__title {
+    font-family: "Inter";
+}
+
+.week__days {
+    margin: 40px 30px 5px 30px;
+}
+
+.days__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.days__box {
+    width: 292px;
+    height: 55px;
+    background-color: rgb(54, 13, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days__text {
+    font-size: 17px;
+    font-family: "inter";
+    font-weight: 400;
+    color: white;
+}
+
+.days__box1 {
+    background-color: rgb(54, 13, 94);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 85px;
+}
+
+.lessons__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lessons__list {
+    list-style: none;
+}
+
+.lessons__list1 {
+    list-style: none;
+}
+
+.lesson__text1 {
+    transform: rotate(270deg);
+}
+
+.lessons__box {
+    width: 292px;
+    background-color: rgb(201, 223, 241);
+}
+
+.lessons__box1 {
+    width: 85px;
+    height: 182px;
+    background-color: rgb(201, 223, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessons1 {
+    margin: 0px 30px;
+}
+
+.lesson__text {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.lessons__list {
+    margin: 7px 0 7px 25px;
+    line-height: 28px;
+}
+
+.lesson__text1 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Inter"; 
+}
+
+.lessons2 {
+    margin: 0px 30px;
+    margin-top: 3px;
+}
+
+.lessons3 {
+    margin: 0px 30px;
+    margin-top: 3px;
+}
+
+.lessons4 {
+    margin: 0px 30px;
+    margin-top: 3px;
+}
+
+.lessons__box3 {
+    width: 85px;
+    height: 182px;
+    background-color: rgb(165, 197, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessons__box2 {
+    width: 292px;
+    background-color: rgb(165, 197, 224);
+}

@@ -1,0 +1,208 @@
+.kriminoligiya {
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    text-align: start;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter";
+    transition: 0.3s;
+    background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px #eee;
+    --c1: #fbc2eb;
+    --c2: #a6c1ee;
+}
+
+.kriminoligiya:hover {
+    --x: 100%;
+}
+
+.room1 {
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    text-align: start;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter";
+    transition: 0.3s;
+    background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px #eee;
+    --c1: #fbc2eb;
+    --c2: #a6c1ee;
+}
+
+.room1:hover {
+    --x: 100%;
+}
+
+
+.kriminoligiya1 {
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    text-align: start;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter";
+    transition: 0.3s;
+    background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px #eee;
+    --c1: #fbc2eb;
+    --c2: #a6c1ee;
+}
+
+.kriminoligiya1:hover {
+    --x: 100%;
+}
+
+
+.container1 {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.kri__modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.kri__modal-wrapper {
+    position: relative;
+    max-width: 550px;
+    height: 680px;
+    border-radius: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(205, 243, 243);
+    box-shadow: 9px 3px 22px -2px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 9px 3px 22px -2px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 9px 3px 22px -2px rgba(0, 0, 0, 0.7);
+    transform: scale(0);
+    transition: transform .8s;
+}
+
+.kri__modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.kri__modal.open .kri__modal-wrapper {
+    transform: scale(1);
+}
+
+.kri__box {
+    width: 480px;
+}
+
+.kri__text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter";
+    margin: 30px 20px 40px 20px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+.save__btn {
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 67px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header__text {
+    margin-top: 3px;
+
+}
+
+.search__input {
+    width: 120px;
+    height: 29px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: aquamarine;
+    font-weight: 400;
+    font-family: "Inter";
+    padding-left: 15px;
+    margin-right: 5px;
+}
+
+.search__input::placeholder {
+    color: #000;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.date__input {
+    width: 120px;
+    height: 29px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: aquamarine;
+    font-weight: 400;
+    font-family: "Inter";
+    text-align: center;
+
+}
+
+.date__input::-webkit-inner-spin-button,
+.date__input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
